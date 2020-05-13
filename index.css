@@ -8,16 +8,70 @@
 
 #About{
     background: rgb(85, 173, 255);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #Teamspace{
     background: rgb(85, 173, 255);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 .card{
     margin: 10px 10px 10px 10px;
 }
 
-h2{
-    margin: 10px 10px 10px 10px;
+#tpic {
+  height: 50vh;
+}
+
+#mnv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#mission, #vision {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#Team {
+    padding: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row {
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+footer {
+    display: flex;
+    height: 5vh;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 2px solid black;
+    background-color: #e9ecef;
+}
+
+#fter {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fter p {
+    margin: 0;
 }
